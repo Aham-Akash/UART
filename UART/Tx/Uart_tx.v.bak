@@ -1,0 +1,12 @@
+module Uart_tx(
+    input clk_3125,
+    input parity_type,
+    input tx_start,
+    input [7:0] data,
+    output reg tx,      // Initialize tx to 1 (idle state)
+    output reg tx_done  // Initialize tx_done to 0 (no transmission complete initially)
+);
+
+
+
+endmodule 
